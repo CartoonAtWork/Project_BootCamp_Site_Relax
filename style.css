@@ -1,0 +1,421 @@
+/*body*/
+body {
+    background: #cccccc; 
+}
+
+/*projet*/
+.projet {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*header*/
+header {
+    width: 100%; 
+    height: 60px; 
+}
+nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif; 
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    height: 60px;
+    padding-left: 0px;
+}
+nav ul li {
+    display: inline-block; text-align: center; height: 60px; line-height: 60px; width: 70px;
+}
+nav ul li a {
+    text-decoration: none; color: #585858; font-size: 15px; text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: black
+	}
+
+.img0 {
+    float:left;
+    width: 35px;
+    height: 35px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+
+/*home*/
+
+.home {
+   width: 100%; 
+   height: 100%;
+ }
+
+.home div {
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 100; 
+    }
+
+.image1 {
+    position: relative; 
+    align-self: auto;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    }    
+
+.imgText {
+    position: absolute;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    font-style: italic;
+    font-size: 5px  
+    color: #FFFFFF;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}    
+    
+/*services*/
+.section {
+    width: 100%; 
+    height: 100%;
+    background: #FFFFFF;
+    margin-top: 1%;
+}
+
+.div-box1 {
+    width: 80%; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 3%;
+    border-right: 0; 
+    padding-left: 10%;
+    }
+
+.div-box2 {
+    width: 90%; 
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-block-end: 3%;
+    padding-left: 9%;
+        }     
+
+.div-item {
+    width: 30%; 
+    height: 35%;
+    text-align: center;
+    flex-direction: column;
+        }
+
+/*titles,paragraphs & text-decorations*/        
+.h2 {
+    font-family:'Aref Ruqaa', serif;
+    color: darkgrey; 
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;  
+    margin-left: 0; 
+    margin-right: 0; 
+    
+}
+
+h3{
+    font-family: 'Aref Ruqaa', serif;
+    color: darkgrey; 
+    text-align: center;
+    font-size: 17px; 
+    font-style: italic;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #585858; 
+    font-size: 15px; 
+    font-style: normal;
+    text-align: center;
+    margin-block-start: 0;
+    }     
+
+.bold {
+    font-weight: bold; 
+}
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}    
+
+.italic {
+    font-style: italic;
+}
+
+    
+/*photos*/
+
+.section-photos {
+    width: 100%; 
+    height: 100%;
+    background: #FFFFFF;
+    margin-top: 1%;
+    }
+
+.div-photos {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    margin-top: 15px;
+    }
+
+.div-photos-img {
+    width: 33%; 
+    height: 33%;
+    display: flex;
+    padding-right: 0.18%;
+    padding-left: 0.18%;
+    }
+
+/*news*/
+
+#div-box2-news {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-block-end: 3%;
+    padding-left: 15%;
+    justify-content: space-between;
+    }
+
+.div-item-news {
+    width: 47%;
+    height: 40%;
+    flex-direction: row;
+    }
+
+#p-news {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #585858; 
+    font-size: 15px; 
+    text-align: justify;
+    margin-block-start: 0;
+    }           
+             
+/*quote*/
+    
+#p-quote {  
+    font-family: 'Aref Ruqaa', serif;
+    color:darkgrey; 
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+#span-quote {
+    color:darkgrey; 
+}
+
+/*Skills*/
+
+progress { 
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 270px; 
+    height: 12px; 
+    background-color: whiteSmoke;
+}
+
+#div-box2-skills {
+    background-color: aqua;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-block-end: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0; 
+    border: solid 1px black;
+}
+
+.content-container {
+    background: rgb(192, 22, 22);
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+}
+
+.skillbar {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+
+}
+
+.skillbar-h4 {
+    width: 45%;
+    height: auto;
+    font-family: 'Aref Ruqaa', serif;
+    color: darkgrey; 
+    text-align: left;
+    font-size: 17px; 
+    font-style: italic;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+
+.skillbar-container {
+    width: 100%;
+    max-width: 350px;
+    height: 26px;
+    background-color: #c4bbbb;
+    overflow: hidden;
+    border: solid 1px black;
+}
+
+.skillbar-value {
+    height: 26px;
+    float: left;
+    background: #585858;
+    border: solid 1px black;
+}
+
+.value-90 {
+    width: 90%;
+}
+
+/*form*/
+
+#h2-contact {
+    font-family:'Aref Ruqaa', serif;
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;  
+}
+
+.div-form-info {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  
+ }  
+ 
+ .form {  
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #585858; 
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 50%;
+    height: 20%;
+    margin: 0;
+}
+
+.info {  
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    width: 20%;
+    margin: 0; 
+}
+
+#info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #585858; 
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.input-submit {
+    border-style: none;
+    background-color: lightgray;
+    height: 35px;
+    width: 25%;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+#message {
+    height: 100px;
+    width: 100%
+}    
+
+
+/*footer*/
+
+.footer {
+    width: 100%; 
+    height: 20px; 
+}
+
+#p-footer {
+    Font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #585858; 
+    font-size: 12px; 
+    font-style: normal;
+    text-align: left;
+    margin-block-start: 0.5%;
+    margin-inline-end: 0px;
+    float: left;
+    margin-block-end: 0;
+}
+
+
+footer nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif; 
+    padding-right: 30px;
+    padding-left: 30px;
+}
+footer nav ul {
+    list-style: none;
+    text-align: right;
+    width: 95%;
+    height: 20px;
+    padding-left: 30px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start:0;
+    margin-inline-end:0;
+    padding-inline-start: 40px;
+}
+footer nav ul li {
+    display: initial; text-align: center; height: 20px; line-height: 20px; width: 40px;
+}
+footer nav ul li a {
+    text-decoration: none; color: #585858; font-size: 12px; text-transform: none; padding-right: 1%;
+}
+
+
+
+
+
